@@ -45,3 +45,50 @@
         font-size: 5rem;
     }
 }
+/* Extra Extra Large Devices, Large Desktops (1440px) */
+@media (max-width: 1440px) {
+    header {
+        padding: 2rem 9rem;
+    }
+    .large-text {
+        font-size: 4.5rem;
+    }
+    nav.botonera {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+    section.services {
+        padding: 4rem 9rem;
+    }
+    .services .titulo2 {
+        font-size: 4.5rem;
+    }
+    .services-container {
+        flex-direction: row;
+        align-items: center;
+    }
+    .flex-container {
+        flex-direction: row;
+        align-items: center;
+        gap: 3rem;
+    }
+    .title {
+        font-size: 4.5rem;
+        margin-left: 0;
+    }
+    .flex-container .button-container {
+        margin-right: 0;
+    }
+    .projects-container {
+        padding: 2rem 9rem;
+        flex-direction: row;
+        align-items: center;
+    }
+    footer {
+        padding: 4rem 9rem;
+    }
+    .footer-title {
+        font-size: 4.5rem;
+    }
+}
