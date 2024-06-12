@@ -374,3 +374,121 @@ section.featured-projects {
 
 /* Final */
 /* Inicio Footer */
+/* Estilos del pie de página */
+footer {
+    background-color: #0A0A0A;
+    padding: 7rem 10rem 3rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left, .footer-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-left {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.footer-title {
+    width: 100%;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    color: #F4F4F4;
+    margin-bottom: 1rem;
+}
+
+.footer-description {
+    font-size: 1rem;
+    color: #f4f4f4;
+    margin-bottom: 1.5rem;
+}
+
+.footer-contact {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #f4f4f4;
+    text-decoration: underline
+}
+
+.footer-right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.large-circle {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #ff8132;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-image {
+    background-image: url(../img/perfil3.png);
+    background-size: cover;
+    background-position:top 50px left 30px; 
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    z-index: 2;
+} 
+
+.small-circle {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+
+/* Estilos de la botonera de redes */
+nav.botonera2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+nav.botonera2 a {
+    text-decoration: none;
+    color: #F4F4F4;
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    transition: all 0.3s;
+}
+
+nav.botonera2 a:hover {
+    color: #ff8132;
+}
+
+.name-link {
+    
+    margin: 0 10.5rem 0 0;
+}
+
+.social-link {
+    font-size: 0.9rem;
+    color: #0A0A0A;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #ff8132;
+}
+
+/* Extra Small Devices, Phones (320px) */
