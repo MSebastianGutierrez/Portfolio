@@ -172,3 +172,205 @@ section.services {
     color: #333333;
     margin-top: 0.5rem;
 }
+/* Inicio Seccion 3 */
+section.featured-projects {
+    background-color: #F4F4F4;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-bottom: 2rem;
+}
+
+/* Pseudo-elemento para la parte inferior */
+.featured-projects::after {
+    content: '';
+    position: absolute;
+    top: 160rem;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 70px; /* Ajusta la altura según sea necesario */
+    background-color: #0A0A0A;
+    bottom: -25px; /* Mitad de la altura del pseudo-elemento */
+    left: 0;
+    z-index: -1; /* Para que esté detrás del contenedor principal */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 1rem;
+}
+
+.title {
+    color: #0A0A0A;
+    font-size: 4rem;
+    margin-left: 9rem;
+}
+
+.flex-container .button-container {
+    display: flex;
+    gap: 1rem;
+    background-color: #FFFFFF;
+    border: 1px solid #ff8132;
+    border-radius: 50px;
+    padding: 0.4rem 0.4rem;
+    margin-right: 9rem;
+}
+
+/* Estilos de los botones */
+ button {
+    font-family: 'Poppins', sans-serif;
+    padding: 1.5rem 2.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.exploration-btn {
+    font-size: 1.5rem;
+    background-color: #ff8132;
+    color: #FFFFFF;
+    border: none;
+}
+
+.exploration-btn:hover {
+    background-color: #e57028;
+}
+
+.case-study-btn {
+    font-size: 1.5rem;
+    background-color: #FFFFFF;
+    color: #0A0A0A;
+    border: none;
+}
+
+.case-study-btn:hover {
+    background-color: #f0f0f0;
+}
+
+/* cajas */
+/* Estilos de los proyectos */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 2rem 10rem;
+}
+
+.project-box {
+    background-color: #F4F4F4;
+    flex: 1 1 calc(50% - 2rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 25rem;
+    padding: 0.8rem 0.1rem 0.1rem 0.1rem;
+    background-color: #a59d9d;
+    border-radius: 25px;
+
+}
+
+.image-container img {
+    width: 95%;
+    height: 95%;
+    background-color: #333;
+}
+
+.buttons-overlay {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    flex-direction: left;
+    gap: 0.5rem;
+}
+
+/* .round-btn-container {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+} */
+
+.small-btn {
+    background-color: #FFFFFF;
+    border: 1px solid #ff8132;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.round-btn {
+    position: absolute;
+    top: 16rem;
+    left: 22rem;
+    background-color: rgba(255, 255, 255, 0); /* Fondo translúcido */
+    border: 2px solid #ff8132;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .round-btn svg {
+    width: 24px; /* Tamaño de la flecha más grande */
+    height: 24px;
+    fill: #ff8132; /* Color de la flecha */
+    transition: fill 0.3s;
+  }
+  
+  .round-btn:hover {
+    background-color: #ff8132; /* Cambio de color del botón al hacer hover */
+    border-color: #FFFFFF;
+  }
+  
+  .round-btn:hover svg {
+    fill: #FFFFFF; /* Cambio de color de la flecha al hacer hover */
+  }
+
+.project-box h1 {
+    /* font-family: 'Poppins', sans-serif; */
+    width: 100%;
+    color: #0A0A0A;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.project-box h3 {
+    width: 100%;
+    color: #333;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    text-align: left;
+}
+
+.button-container .btn {
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    color: #0A0A0A;
+    border-radius: 25px;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #ff8132;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 2rem;
+}
+
+.button-container .btn:hover {
+    background-color: #ff8132;
+    color: #FFFFFF;
+}
+
+/* Final */
+/* Inicio Footer */
